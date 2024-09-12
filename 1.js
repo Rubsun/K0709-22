@@ -97,4 +97,24 @@ function isPrime(number){
   formatDate(date)
   console.log(get_intersect_time(date1, date2))
   
+
+
+function restring(normal_string) {
+  let reverse_string = ""
+ 
+  for (let i = normal_string.length - 1; i >= 0; i--) {
+    reverse_string += normal_string[i]
+  }
+  return reverse_string
+}
+
+// console.log(restring('qweqwe'))
+// console.log(restring('maksim'))
+
+
+
+
+
+
+
   
